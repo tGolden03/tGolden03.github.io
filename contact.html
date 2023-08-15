@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Honeybadger Publishing :: Contact</title>
+        <meta charset="utf-8">
+        <link href="honey.css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>Honeybadger Publishing</h1>
+        <img src="logo_temp.jpg" height="250" width="200" alt="Honeybadger Logo">
+    </header>
+    <nav>
+        <b>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="works.html">Published works</a> &nbsp;
+            <a href="contact.html">Contact us</a>
+        </b>
+    </nav>
+    <h2>Contacting Us</h2>
+    <p>
+        Below is a contact form.
+        When contacting us please be kind and make sure it is well written.
+        We try to respond to each contact within the week,
+        if it takes longer don't worry we will get to it eventually and send a response soon.
+    </p>
+    <br>
+    <p>Areas marked with an */asterisk are required</p>
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <label for="myFName">* First Name:</label>
+        <input type="text" name="myFName" id="myFName" required>
+
+        <label for="mylname">* Last Name:</label>
+        <input type="text" name="mylname" id="mylname" required>
+
+        <label for="email">* E-mail:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" maxlength="12">
+
+        <label for="contact">* Content:</label>
+        <textarea name="contact" id="contact" rows="10" cols="100" required></textarea>
+
+        <input type="submit" value="submit">
+    </form>
+    <footer>
+        <small><i>
+                Copyright &copy; 2016 Honebadger Publishing<br>
+                <a></a>
+            </i></small>
+    </footer>
+</body>
+</html>
